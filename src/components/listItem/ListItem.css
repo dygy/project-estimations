@@ -1,0 +1,33 @@
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: space-between;
+  width: calc(358px - 48px);
+  height: calc(140px - 24px);
+  background: #1d222e;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.listItem-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: baseline;
+}
+
+.listItem-column {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #93969e;
+}
+
+.listItem-column span {
+  width: fit-content;
+  margin-top: 8px;
+}

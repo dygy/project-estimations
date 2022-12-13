@@ -1,0 +1,32 @@
+.textarea-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.textarea-wrapper textarea {
+  background: #1f2430;
+  border: 2px solid #5b5e68;
+  border-radius: 14px;
+  width: 729px;
+  height: 101px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 16px 24px;
+}
+
+.textarea-wrapper span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,53 @@
+.App-body {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #14171f;
+  padding: 32px 50px;
+  max-width: 1660px;
+  min-width: 1180px;
+}
+
+.App-control {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  width: 100%;
+}
+
+.App-control span {
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.App-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 32px;
+}
+
+.App-list .invisible {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.App-list .invisible:hover {
+  box-shadow: 0 0 3px 3px rgba(65, 255, 84, 0.68);
+}
+
+.separated {
+  justify-content: space-between;
+}
+
+.invisible {
+  background: transparent;
+  border: none;
+}
